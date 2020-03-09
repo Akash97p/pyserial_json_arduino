@@ -9,6 +9,7 @@ def send_json_object():
 	c4 = 8
 	json_object = '{"c1":'+str(c1)+',"c2":'+str(c2)+',"c3":'+str(c3)+',"c4":'+str(c4)+'}' 
 	ser.write(json_object.encode())
+	# Uncomment below code if the above code is not working 
 	#if (ser.is_open() == True):
 	#	ser.write(json_object.encode())
 		#ser.write(b'hii')
