@@ -24,13 +24,13 @@ void loop() {
     const char* c3 = root["c3"];
     const char* c4 = root["c4"];
     Serial.println("--------------------------------");
-    Serial.print("Candidate1 :");
+    Serial.print("Variable_1 :");
     Serial.println(c1);
-    Serial.print("Candidate2 :");
+    Serial.print("Variable_2 :");
     Serial.println(c2);
-    Serial.print("Candidate3 :");
+    Serial.print("Variable_3 :");
     Serial.println(c3);
-    Serial.print("Candidate4 :");
+    Serial.print("Variable_4 :");
     Serial.println(c4);
     Serial.println("--------------------------------");
     delay(50);
