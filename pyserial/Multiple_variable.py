@@ -2,6 +2,15 @@ import serial
 
 ser = serial.Serial('/dev/serial0',38400) #GPIO14 = Tx , GPIO15 = Rx
 
+def json(var):
+	x = var.split(":")
+	s ='{"c'
+	b = ":'
+	c = ',"c
+	d = '}'
+	for i range(len(x)):
+		s = s+str(i)+b+
+
 def send_json_object():
 	c1 = 9
 	c2 = 2
