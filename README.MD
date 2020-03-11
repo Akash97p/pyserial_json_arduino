@@ -1,1 +1,1 @@
-# Send data to Arduino boards from Raspeberry Pi in JSON format.
+# Send data to Arduino boards from Raspeberry Pi in JSON.
